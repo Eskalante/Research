@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\1_parts">
+      <UniqueIdentifier>{e7311c5c-f0a0-4eb7-bf88-20bfe66cd6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2_components">
+      <UniqueIdentifier>{5f10b61e-a346-48ef-b9ea-491b98ed589c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1_parts\1_parsers">
+      <UniqueIdentifier>{b6c0e0f5-7376-4aa5-a34d-89523d79d02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1_parts\2_processors">
+      <UniqueIdentifier>{5f16fc8d-c922-4658-8680-3105caafd6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1_parts\3_evaluators">
+      <UniqueIdentifier>{fa82dd19-e71d-4a6e-8101-9329523a6fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2_components\1_features">
+      <UniqueIdentifier>{f700c77e-af2c-4de9-b05f-5c78daea2b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2_components\2_matchers">
+      <UniqueIdentifier>{f54b1f98-07b2-4b1b-9e81-71bc62c0f449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2_components\4_NN">
+      <UniqueIdentifier>{89c8bc91-a96a-442c-a440-cd0c50b530dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2_components\3_spliters">
+      <UniqueIdentifier>{950cc8ec-d462-4db6-8bd0-198db9ea2c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2_components\5_calculators">
+      <UniqueIdentifier>{49ed2a5f-d406-4de5-982a-a95973cd4c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2_components\6_exporters">
+      <UniqueIdentifier>{c2e5ba67-c2a5-460f-ae54-0fd72287dbc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iParser.h">
+      <Filter>Header Files\1_parts\1_parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="parserFileTree.h">
+      <Filter>Header Files\1_parts\1_parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_canny.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_fcomplex.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_fourier.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_fourier2d.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_fr.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_hough.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_local.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_min.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_rad.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_rad2.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_radDCT.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_radR.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_radW.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_susift.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="iFeature.h">
+      <Filter>Header Files\2_components\1_features</Filter>
+    </ClInclude>
+    <ClInclude Include="iMatch.h">
+      <Filter>Header Files\2_components\2_matchers</Filter>
+    </ClInclude>
+    <ClInclude Include="procModel.h">
+      <Filter>Header Files\1_parts\2_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="iProcessor.h">
+      <Filter>Header Files\1_parts\2_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="iEvaluator.h">
+      <Filter>Header Files\1_parts\3_evaluators</Filter>
+    </ClInclude>
+    <ClInclude Include="evalDefault.h">
+      <Filter>Header Files\1_parts\3_evaluators</Filter>
+    </ClInclude>
+    <ClInclude Include="iSplitter.h">
+      <Filter>Header Files\2_components\3_spliters</Filter>
+    </ClInclude>
+    <ClInclude Include="iCalculator.h">
+      <Filter>Header Files\2_components\5_calculators</Filter>
+    </ClInclude>
+    <ClInclude Include="calcConfusion.h">
+      <Filter>Header Files\2_components\5_calculators</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="splitRandom.h">
+      <Filter>Header Files\2_components\3_spliters</Filter>
+    </ClInclude>
+    <ClInclude Include="iExporter.h">
+      <Filter>Header Files\2_components\6_exporters</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="splitBegin.h">
+      <Filter>Header Files\2_components\3_spliters</Filter>
+    </ClInclude>
+    <ClInclude Include="matchSVM.h">
+      <Filter>Header Files\2_components\2_matchers</Filter>
+    </ClInclude>
+    <ClInclude Include="matchNB.h">
+      <Filter>Header Files\2_components\2_matchers</Filter>
+    </ClInclude>
+    <ClInclude Include="matchKNN.h">
+      <Filter>Header Files\2_components\2_matchers</Filter>
+    </ClInclude>
+    <ClInclude Include="splitCrossValidation.h">
+      <Filter>Header Files\2_components\3_spliters</Filter>
+    </ClInclude>
+    <ClInclude Include="matchANN.h">
+      <Filter>Header Files\2_components\2_matchers</Filter>
+    </ClInclude>
+    <ClInclude Include="calcPRF.h">
+      <Filter>Header Files\2_components\5_calculators</Filter>
+    </ClInclude>
+    <ClInclude Include="matchFLANN.h">
+      <Filter>Header Files\2_components\2_matchers</Filter>
+    </ClInclude>
+    <ClInclude Include="matchLR.h">
+      <Filter>Header Files\2_components\2_matchers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
